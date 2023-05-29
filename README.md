@@ -13,4 +13,5 @@ If you're not familiar with the "~" symbol, it's a shortcut that represents the 
 remove folder 
 rm -rf <name of the folder>
 
-giving permission to delete folder <sudo chmod -R 777 /home/user/BLAH>
+giving permission to delete folder 
+sudo chmod -R 777 /home/user/BLAH
