@@ -31,3 +31,10 @@ If you want to give write permission to other users as well, you can use the g+w
 Additionally, if you want to change the permissions of all files and subdirectories within a directory, you can use the -R option with the chmod command. This will apply the specified permissions recursively to all files and subdirectories within the specified directory. For example, to give write permission to both the owner and group for all files and subdirectories within a directory named mydir, you can use the following command:
 
 `chmod -R ug+w mydir`
+
+## How To Close An Open Window Using The xkill Command
+In most cases, the System Monitor software will forcefully close a program on Ubuntu. If it doesn’t, then you’ll need to switch to the terminal to close any non-responding programs.
+
+Thankfully, there’s an easy-to-use command called xkill that will allow you to forcefully close any program with an open window. 
+
+Most modern versions of Ubuntu should come with the xkill package installed but, if you find it isn’t installed, you’ll need to install xkill first before you can use it. Open a terminal and type sudo apt install xorg-xkill to do this. Once it’s installed, simply type `xkill` or `sudo xkill` to begin using it.
